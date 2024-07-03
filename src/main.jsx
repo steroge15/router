@@ -9,6 +9,7 @@ import Home from './components/Home.jsx';
 import Profile from './components/Profile.jsx';
 import Settings from './components/Settings.jsx';
 import ErrorPage from './components/ErrorPage.jsx';
+import ProfileChild from './components/ProfileChild.jsx';
 
 
 const router = createBrowserRouter([
@@ -23,7 +24,7 @@ const router = createBrowserRouter([
     children:[
       {
         path:'/profile/:profileId',
-        element:<Profile/>
+        element:<ProfileChild/>
       },
     ]
   },

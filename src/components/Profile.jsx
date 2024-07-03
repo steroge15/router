@@ -1,6 +1,7 @@
 import React from "react";
 import NavBar from "./NavBar";
 import { Link, useParams } from "react-router-dom";
+import { Outlet } from "react-router-dom";
 
 const Profile = () => {
     const profiles = ['Stephen', 'Amira', 'Caroline', 'Clinton', 'Lucy','Ian','Damaris','Abel']
@@ -23,7 +24,9 @@ const Profile = () => {
                         })
 
                     }
-                    <h1>Profile {params.profileId}</h1>
+                    <div className="col-md-6">
+                    <Outlet/>
+                    </div>
                 </div>
             </div>
         </>
