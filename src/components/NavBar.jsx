@@ -23,6 +23,7 @@ const NavBar = () => {
                             </div>
                             <div className="nav-item">
                                 <Link to='/settings' className="mr-4 nav-link" href="#">SETTINGS</Link>
+                                <Link to='/users' className="mr-4 nav-link" href="#">USERS</Link>
                             </div>
                         </div>
                     </div>

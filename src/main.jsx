@@ -10,6 +10,8 @@ import Profile from './components/Profile.jsx';
 import Settings from './components/Settings.jsx';
 import ErrorPage from './components/ErrorPage.jsx';
 import ProfileChild from './components/ProfileChild.jsx';
+import Users from './components/Users.jsx';
+import UserProfile from './components/UserProfile.jsx';
 
 
 const router = createBrowserRouter([
@@ -39,6 +41,14 @@ const router = createBrowserRouter([
   {
     path:'/home',
     element:<Home/>
+  },
+  {
+    path:'/users',
+    element:<Users/>
+  },
+  {
+    path:'/userprofile',
+    element:<UserProfile/>
   }
 ])
 
