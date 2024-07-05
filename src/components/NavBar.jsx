@@ -10,7 +10,7 @@ const NavBar = () => {
             <nav className="navbar navbar-expand-md navbar-dark fixed-top" style={{ backgroundColor: '#0c29e8', padding: '15px' }}>
                 <div className="container">
                     <Link to='/' className="navbar-brand mr-4" href="#" style={{ fontSize: '1.5em' }}>Router.com</Link>
-                    <button className="navbar-toggler" type="button" onClick={() => setIsOpen(!isOpen)} data-bs-toggle="collapse" data-bs-target="#navbarToggle" aria-controls="navbarToggle" aria-expanded="false" aria-label="Toggle navigation">
+                    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggle" aria-controls="navbarToggle" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
                     </button>
                     <div className="collapse navbar-collapse" id="navbarToggle" style={{ color: 'white' }}>
